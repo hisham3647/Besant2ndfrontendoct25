@@ -2,6 +2,8 @@
 // console.log(`I love javascript`);
 // console.log('I love javascript');
 
+// const { use } = require("react");
+
 // window.alert("Hai welocome to javascript qworld");
 
 // document.getElementById("myH1").textContent = "Welcome to javascript world";
@@ -75,4 +77,68 @@
 // 23
 // console.log(result);
 
+
+//  how to get the user input 
+
+// window promt
+
+// HTML text box 
+
+
+// let username;
+
+// username = window.prompt('what is your username');
+// username = window.prompt('what is your username');
+
+// let num1 = Number(window.prompt('Enter num 1'));
+// let num2 = Number(window.prompt('Enter num 2'));
+
+// let a = String(10);
+// let b = String(20);
+
+
+// let a = Number("10");
+// let b = Number("20");
+
+// console.log(a + b);
+
+// console.log(num1 + num2);
+
+
+// let username;
+
+// document.getElementById("mySubmit").onclick = function() {
+//   username = document.getElementById("myText").value;
+//   document.getElementById("myH1").textContent = `Hello ${username}`
+//   console.log(username);
+  
+// } 
+
+
+//const = a variable that cant be changed
+
+// const PI = 3.14159;
+
+// let radius;
+// let circumference;
+
+// pi = 34.443;
+
+// radius = window.prompt("Enter the raius of the circle...")
+// radius = Number(radius);
+
+// circumference = 2 * pi * radius;
+
+// console.log(circumference);
+
+const decreaseBtn = document.getElementById("decrease");
+const resetBtn = document.getElementById("reset");
+const increaseBtn = document.getElementById("increase");
+const countLabel = document.getElementById("countLabel")
+count = 0;
+
+increaseBtn.onclick = function() {
+    count++;
+    countLabel.textContent = count;
+}
 
