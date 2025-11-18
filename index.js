@@ -131,14 +131,153 @@
 
 // console.log(circumference);
 
-const decreaseBtn = document.getElementById("decrease");
-const resetBtn = document.getElementById("reset");
-const increaseBtn = document.getElementById("increase");
-const countLabel = document.getElementById("countLabel")
-count = 0;
+// const decreaseBtn = document.getElementById("decrease");
+// const resetBtn = document.getElementById("reset");
+// const increaseBtn = document.getElementById("increase");
+// const countLabel = document.getElementById("countLabel")
+// count = 0;
 
-increaseBtn.onclick = function() {
-    count++;
-    countLabel.textContent = count;
-}
+// increaseBtn.onclick = function() {
+//     count++;
+//     countLabel.textContent = count;
+// }
 
+
+// Math = builtin object that provides a collection of propeties and methods 
+
+
+
+
+// console.log(Math.PI);
+// console.log(Math.E); // Eulers number
+
+
+// let x = 16;
+// let y = 3;
+// let z = 10;
+
+// z = Math.round(x);
+// z = Math.floor(x);
+// z = Math.ceil(x);
+// z = Math.trunc(x);
+// z = Math.pow(y, x);
+// z = Math.sqrt(x);
+// z = Math.log(x);
+
+
+
+// let max = Math.max(x, y, z)
+// let min = Math.min(x, y, z)
+// console.log(max);
+// console.log(min);
+
+// if statement 
+
+// let age = 20;
+
+// if(age >= 18) {
+//     console.log("You are old enough to enter this site");
+    
+// } else {
+//     console.log("You amust 18+ to enter this site");
+
+// }
+
+// let isStudent = true; 
+
+// if(isStudent) {
+//     console.log("You are student");
+// } else {
+//     console.log("You are not a student");
+// }
+
+
+// let age = 18;
+
+// let hasLicence = true;
+
+// if(age >= 18) {
+//     console.log("You a old eneoug to drive"); 
+
+//       if(hasLicence) {
+//         console.log("You have your lisense");
+//       } else {
+//         console.log("ypu do not have your lisence yet");
+//       }
+
+// } else {
+//     console.log("You must be 18+ to have a linsece ");
+// }
+
+
+// const myCheckbox = document.getElementById("myCheckbox");
+// const visaBtn = document.getElementById("visaBtn");
+// const mastercardBtn = document.getElementById("mastercardBtn");
+// const rupayBtn = document.getElementById("rupayBtn");
+// const mySubmit = document.getElementById("mySubmit");
+// const subResult = document.getElementById("subResult");
+// const paymentResult = document.getElementById("paymentResult");
+
+
+
+
+
+// mySubmit.onclick = function() {
+
+//     if(myCheckbox.checked) {
+//          subResult.textContent = `you are subscribed`;
+//     } else {
+//         subResult.textContent = `you are not subscribed`;
+//     }
+
+//     if(visaBtn.checked) {
+//         paymentResult.textContent = `you are paying with visa card`;
+//     }
+// }
+
+// ternary operator - a shortcut for if and else statements 
+
+// help to assign a varibale baesd on a condition
+
+
+// condition ?  conIfTrue : consIfFalse;
+
+// let age = 1;
+
+// let message = age >= 18 ? "you are adult" : "you are minor";
+
+// console.log(message);
+
+
+// let time = 24;
+
+// let greeting = time < 12 ? "good morning" : "good afternoon";
+
+// console.log(greeting);
+
+
+// let purchaseAmount = 100000;
+
+// let discount = purchaseAmount >= 100 ? 10 : 0;
+
+// console.log(`Your total is ${purchaseAmount - purchaseAmount * (discount / 100)}`);
+
+
+// switches - 
+
+
+
+
+// let mark = 2;
+
+// if(mark < 10) {
+//     console.log("Your grade is D");
+// } else if(mark >10 && mark <=50 ) {
+//     console.log("Your grade is c");
+// } else if(mark > 50 && mark <= 80) {
+//     console.log("Your grade is b");
+// } else if(mark > 80 && mark <= 100) {
+//     console.log("Your grade is A");
+// } else {
+//     console.log("Inviad mark");
+// }
