@@ -701,12 +701,117 @@
 
 // getAverage();
 
+// function combineString(...strings) {
+//       return strings.join(" ");
+// }
+
+// const fuulName = combineString("Mr", "siva", "tamilnadu", "3");
+
+// console.log(fuulName);
+
+// ****
+// callback - a function that is passed as an arugument to another function.
 
 
-function combineString(...strings) {
-      return strings.join(" ");
+// used to handle asysychrounous operations
+// read the file
+// Network requests
+// Interacting with database 
+
+
+
+// hello(wait);
+
+// function hello(callback) {
+//       console.log("hello");
+//       callback();
+// }
+
+// function leave() {
+//  console.log("Students times up leave");
+// }
+
+// function wait() {
+//       console.log("students wait");
+// }
+
+// function goodBye() {
+//       console.log("Goodbye Students");
+// }
+
+// sum(displayConsole, 20, 20);
+
+// function sum(callback, x, y) {
+//   let result = x + y;
+//   callback(result);
+// }
+
+// function displayConsole(result) {
+//    console.log(`the answers is ${result}`);
+// }
+
+
+// function displayDom(result) {
+//    document.getElementById("h1").innerHTML = `The answer is ${result}`
+// }
+
+
+// Multiplication the numbers using callback
+// Delay message - setTimeout 
+
+// forEach() - method used to itrate over the elments of an array and apply a specified function(callback)
+
+// array.forEach(callback);
+// element, index, array are provided 
+
+
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+// // numbers.forEach(double);
+// numbers.forEach(square);
+// numbers.forEach(display);
+
+// function double(element, index, array) {
+//     array[index] = element * 2; 
+// }
+
+
+// // triple
+
+// function square(element, index, array) {
+//       array[index] = Math.pow(element, 2);
+// }
+
+// // cubic 
+
+// function display(element) {
+//    console.log(element);
+// }
+
+
+let names = ["haamid", "isham", "akmal", "arsath"];
+
+
+// names.forEach(upperCase);
+names.forEach(capitalize);
+
+// function upperCase(element, index, array) {
+//     array[index] = element.toUpperCase();
+// }
+
+// lowercase 
+
+// function capitalize(element, index, array) {
+//     array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+// }
+
+// make last leeter captilize task
+
+names.forEach(display);
+
+function display(element) {
+      console.log(element);
 }
 
-const fuulName = combineString("Mr", "siva", "tamilnadu", "3");
 
-console.log(fuulName);
+
